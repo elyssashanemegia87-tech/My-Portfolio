@@ -1,0 +1,60 @@
+
+body{
+	background-color:
+	font-family: arial, sans-serif;
+	}
+.1{
+	background-color:black;
+	text-align:center;
+	}	
+
+			h1{
+			color:white;
+			background-color:black;
+			padding-left:535px;
+			padding-right:500px;
+			padding-top:40px;
+			padding-bottom:50px;
+			font-family:arial, san-serif;
+			}
+			
+			ul{
+			list-style:none;
+			margin-right:0;
+			padding:0;
+			display:flex;	
+			justify-content:center;
+			gap:20px;
+			}
+			
+			ul li a{
+			text-decoration:none;
+			color:white;
+			}
+		
+			h2{
+			padding-left:460px;
+			padding-right:500px;
+			padding-top:50px;
+			padding-bottom:50px;
+			font-family:arial, san-serif;
+			}
+			
+			h3{
+			padding-left:565px;
+			padding-right:350px;
+			font-family:arial, san-serif;
+			}
+			
+			p{
+			padding-left:150px;
+			padding-right:128px;
+			padding-top:50px;
+			padding-bottom:50px;
+			font-family:arial, san-serif;
+			}
+			
+			
+			
+		</style>
+	
