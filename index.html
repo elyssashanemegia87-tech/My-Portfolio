@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang>
 	<head>
 	<script>
-		
+	    
 		const my_n= "Elyssa";
 		alert(`Hi my name is ${my_n}`);
 		let my_age= 16
@@ -11,34 +11,82 @@
 		alert(`${my_word};)`);
 		let grade_lev= "11";
 	
-	</script>
+		</script>	
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content= width=device-width, initial-scale=1.0>
 		<title>My Portfolio</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
+	  
+		<!-- links for social media icons -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+		integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+		
+		<!-- CSS link/file -->
+		<link rel="stylesheet" href="style(1).css">
 	</head>
 	
 	<body>
-		<h1>My Portfolio</h1>
-	
-		<img src=>
-		<ul>
-			<li> <a href="">About</a> </li>
-			<li> <a href="">Projects</a></li>
-			<li> <a href="">Others</a> </li>
-		</ul>
+     <!-- Navigation -->
+     <nav class="navbar">
+		    <a href="#home" class="logo">My Portfolio</a>
+	      <ul class="nav-links">
+		      <li><a href="#home">Home</a></li>
+			    <li><a href="#about">About</a></li>
+			    <li><a href="#skills">Skills</a></li>
+		      <li><a href="#contacts">Contacts</a></li>
+	      </ul>
+	  </nav>
+	  
+	    <!-- Hero Section -->
+		<section id="home" class="hero">
+		   <div class="hero-content">
+		     <h1>Hello!</h1>
+		     <h2>Welcome to my portfolio</h2>
+		     <p> Hi~~ I'm Elyssa a grade 11 student from Children of Fatima School Inc.(CFSI)
+		     and i'd like to explore and learn more about coding and etc.</p>
+		     <a href="#contact" class="cts-bitton"> Contact </a>
+		   </div>
+		   
+		   <div class="hero-image">
+		       <img src="https://i.pinimg.com/736x/2a/b4/99/2ab4991282063a7aeb2f345967b4aa86.jpg" 
+		       alt="profile" class="profile-img">
+		   </div>
+		   
+		</section>
 		
-		<h3>Hello!</h3>
-		<h2>Welcome to my portfolio</h2>
+		<!-- Skills Section-->
+		<section id="skills" class="skills">
+		    <h2>Things about me</h2>
+		    <div class="skills-grid">
+		        <div class="skill-card"></div>
+		        <i class="fa-solid fa-code"></i>
+		        <h3>Frontend Development</h3>
+		        <p>HTML, CSS, JavaScript</p>
+		    </div>
+		    
+		    <div class="skill-card">
+		        <i class="fa-solid fa-gamepad"></i>
+		        <h3>Favorite videogame</h3>
+		        <p>Roblox, Freefire(not a pro)</p>     
+		    </div>
+		    
+		    <div class="skill-card">
+		        <i class="fa-regular fa-heart"></i>
+		        <h3>Something I love</h3>
+		        <p>K-pop, Music, Foods, Reading</p>
+		    </div>
+		    
+		</section>
 		
-		<h3>About Me</h3>
-		<p> Hi~~ I'm Elyssa a grade 11 student from Children of Fatima School Inc.(CFSI)
-		and i'd like to explore and learn more about coding and etc.</p>
+		<!-- Footer -->
+		<footer>
+		    <p>Connect with me @</p>
+		    <div class="social-links">
+		       <a href="#"><i class="fa-brands fa-github"></i></a>
+		       <a href="#"><i class="fa-solid fa-at"></i></a>
+		       <a href="#"><i class="fa-brands fa-facebook"></i></a>
+		    </div>
+		</footer>
 		
-		<style>
-			h1{
-			color:white;
-			background-color:black;
-			padding-left:550px;
-			}
-		</style>
 	</body>
 </html>
