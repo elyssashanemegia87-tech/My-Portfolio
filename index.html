@@ -1,92 +1,72 @@
 <!DOCTYPE html>
-<html lang>
-	<head>
-	<script>
-	    
-		const my_n= "Elyssa";
-		alert(`Hi my name is ${my_n}`);
-		let my_age= 16
-		alert(`I'm ${my_age} years old`);
-		const my_word= "EHEHHEHEH";
-		alert(`${my_word};)`);
-		let grade_lev= "11";
-	
-		</script>	
-	  <meta charset="UTF-8">
-	  <meta name="viewport" content= width=device-width, initial-scale=1.0>
-		<title>My Portfolio</title>
-	  
-		<!-- links for social media icons -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
-		integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-		crossorigin="anonymous" referrerpolicy="no-referrer" />
+<html lang="en">
+<head>
+<script>
+   
+const my_n= "Elyssa";
+alert(`Hi my name is ${my_n}`);
+let my_age= 16
+alert(`I'm ${my_age} years old`);
+const my_word= "EHEHHEHEH";
+alert(`${my_word};)`);
+let grade_lev= "11";
+
+if (my_n =="Elyssa"){alert (" You are correct!!")}
+else{alert ("Sorry, its incorrect :(")}
+
+let userinput= prompt(" Tao ka po ba??");
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content= width=device-width, initial-scale=1.0>
+  
+ <!-- CSS link/file -->
+<link rel="stylesheet" href="style.css">
+<title>My Portfolio</title>
+ 
+ <!-- Navigation-->
+ <header>
+	<h1> My Portfolio </h1>
+	<nav>
+	<a href="#">About</a>
+	<a href="#">Projects</a>
+	<a href="#">Contacts</a>
+	<nav>
+	</header>
+<div class="container">
+<div class="Hi">
+<img src="https://i.pinimg.com/736x/2a/b4/99/2ab4991282063a7aeb2f345967b4aa86.jpg">
+ <h1>Hello!</h1>
+ <h2>Welcome to my portfolio</h2>
+ <p> Hi~~ I'm Elyssa a grade 11 student from Children of Fatima School Inc.(CFSI)
+   and i'd like to explore and learn more about coding and etc.</p>
+</div>
+</div>
+
+
+<div class="card-container">
+  <div class="card">
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrEgCgRS2ksEnXzjdUoNB7SsRrsGsDXHtsTMs6z7iWg&s=10">
+  <div class="card-contents"
+   <h3>Frontend Development</h3>
+   <p>HTML, CSS, JavaScript</p>
+</div>
+</div>
+
+  <div class="card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrEgCgRS2ksEnXzjdUoNB7SsRrsGsDXHtsTMs6z7iWg&s=10">
+  <div class="card-content">
+    <h3>Favorite Videogame</h3>
+    <p>Roblox, Freefire(not a pro)</>
+  </div>
+  </div>
 		
-		<!-- CSS link/file -->
-		<link rel="stylesheet" href="style.css">
-	</head>
-	
-	<body>
-     <!-- Navigation -->
-     <nav class="navbar">
-		    <a href="#home" class="logo">My Portfolio</a>
-	      <ul class="nav-links">
-		      <li><a href="#home">Home</a></li>
-			    <li><a href="#about">About</a></li>
-			    <li><a href="#skills">Skills</a></li>
-		      <li><a href="#contacts">Contacts</a></li>
-	      </ul>
-	  </nav>
-	  
-	    <!-- Hero Section -->
-		<section id="home" class="hero">
-		   <div class="hero-content">
-		     <h1>Hello!</h1>
-		     <h2>Welcome to my portfolio</h2>
-		     <p> Hi~~ I'm Elyssa a grade 11 student from Children of Fatima School Inc.(CFSI)
-		     and i'd like to explore and learn more about coding and etc.</p>
-		     <a href="#contact" class="cts-bitton"> Contact </a>
-		   </div>
-		   
-		   <div class="hero-image">
-		       <img src="https://i.pinimg.com/736x/2a/b4/99/2ab4991282063a7aeb2f345967b4aa86.jpg" 
-		       alt="profile" class="profile-img">
-		   </div>
-		   
-		</section>
-		
-		<!-- Skills Section-->
-		<section id="skills" class="skills">
-		    <h2>Things about me</h2>
-		    <div class="skills-grid">
-		        <div class="skill-card"></div>
-		        <i class="fa-solid fa-code"></i>
-		        <h3>Frontend Development</h3>
-		        <p>HTML, CSS, JavaScript</p>
-		    </div>
-		    
-		    <div class="skill-card">
-		        <i class="fa-solid fa-gamepad"></i>
-		        <h3>Favorite videogame</h3>
-		        <p>Roblox, Freefire(not a pro)</p>     
-		    </div>
-		    
-		    <div class="skill-card">
-		        <i class="fa-regular fa-heart"></i>
-		        <h3>Something I love</h3>
-		        <p>K-pop, Music, Foods, Reading</p>
-		    </div>
-		    
-		</section>
-		
-		<!-- Footer -->
-		<footer>
-		    <p>Connect with me @</p>
-		    <div class="social-links">
-		       <a href="#"><i class="fa-brands fa-github"></i></a>
-		       <a href="#"><i class="fa-solid fa-at"></i></a>
-		       <a href="#"><i class="fa-brands fa-facebook"></i></a>
-		    </div>
-		</footer>
-		
-	</body>
-</html>
+  <div class="card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrEgCgRS2ksEnXzjdUoNB7SsRrsGsDXHtsTMs6z7iWg&s=10">
+  <div class="card-content">
+    <h3>Something I love</h3>
+    <p>K-pop, Music, Foods, Readin</>
+  </div>
+  </div>
+  
+</body>
+</html>  

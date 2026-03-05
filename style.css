@@ -1,232 +1,122 @@
- *{margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    font- family:'Segoe UI', sans-serif ;   
-   }
-   
-   :root{
-    --dark-bg: #000000;
-    --darker-bg:#000000;
-    --accent: #a1a1a1;
-    --accent-glow:#777777;
-    --text: #ffffff;
-   }
-   
-   body{
-       background-color:#000000 ;
-       color: #ffffff;
-       line-height:1.6;
-       overflow-x: hidden;   
-   }
-   
-   .navbar{
-       position:fixed;
-       top:0;
-       width:100%;
-       padding: 1.5rem 5%;
-       display: flex;
-       justify-content: space-between;
-       align-items:center;
-       background: #000000;
-       background-filter: blur(10px);
-       z-index: 1000;       
-       border-bottom:1px solid #353535;
-   }
-   
-   .logo{
-       font-size: 1.8rem;
-       font-weight: 700;
-       color:  #a1a1a1;
-       text-decoration:none;
-       position: relative;
-       padding-lerem: 2.5rem;
-   }
-   
-  /* nav section */
-   .nav-links{
-       display: flex;
-       gap: 2rem;
-       list-style: none ;
-       text-decoration:none;   
-   }
-   
-   .nav-links a {
-       color:#ffffff;
-       text-decoration: none;
-       font-weight: 500;
-       transition:all 0.3s ease;
-       position: relative;
-   }
-  
-  .nav-links a::after{
-      content:'';
-      position: absolute;
-      bottom:-5px;
-      left:0;
-      width:0;
-      height:2px;
-      background:#a1a1a1;
-      transition: width 0.3s ease;
-  }
- .nav-links a: hover::after{
-     width: 100%;
- }
- 
- /* hero */
-  }
-  
-  .hero{
-      min-height:100vh;
-      display:flex;
-      align-items:center;
-      background:radial-gradient(circle at 75% 30%, #777777 0%, transparent 30%);
-  }
-     
-   . hero-content{
-      flex:1;
-      padding-right:5rem;
-   }
-   
-   .hero-image{
-       flex:1;
-       text-align: center ;
-       position : relative;
-   }
-  
-  . profile-image{
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 3px solid  #a1a1a1;
-      box-shadow: 0 0 50px #777777;
-      animation: float 2s ease-in-out;
-      filter:grayscale(0.2) contrast(1.1);
-   }
-   
-  .hero p {
-      
-      font-size: 1.2rem;
-      margin-bottom: 2rem;
-      opacity: 0.9;
-      max-width: 600px;
-  }
-   
-   .cta-button{
-       display: inline-block;
-       padding:1rem, 2rem;
-       background: linear-gradient(40deg, #a1a1a1, #158cff );
-       color:white;
-       border-radius: 8px;
-       text-decoration: none;
-       transition: all 0.3s ease;
-       overflow: hidden;
-   }
-   
-   @keyframes float{
-       0%, 100%{transform: translateY (0);} 50%{transform: translateY (-20px);}
-   }
-   
-   .hero h1{
-       font-size:4rem;
-       margin-bottom: linear-gradient(40deg, #a1a1a1 30%, #ffffff 70%);
-       -webkit-background-clip: text;
-       -webkit-text-fill-color: transparent;
-   }
-   
-   
-   /* skills */
-   
-   .skills{
-       padding: 5rem 5%;
-       background:#000000;
-   }
-   
-        
-    . skills-grid{
-       grid-template-column:repeat(auto-fit, minmax(250px, 1fr));    
-       display:grid;
-       gap: 2rem;
-       margin-top:3rem;
-   }
-   
-   . skill-card{
-       padding:2rem;
-       border-radius:15px;
-       background: #a1a1a1;
-       transition:all 0.3s ease;
-       border:1px solid #777777;
-       backdrop-filter: blur(5px);  
-   }
-     
-     .skill-card:hover{
-         transform: translateY(-10px);
-         border-color:#a1a1a1;
-         box-shadow: 0 10px 30px #777777;
-     }
-     
-     
-     
-   }
-   
-   . skill-card i{
-       font-size: 2.5px;
-       color:#a1a1a1;
-       margin-bottom:1rem;
-   }
-   
-   /* footer */
-   footer{
-       background:#000000;
-       padding:3rem 5%;
-       text-align:center;
-       border-top:,1px solid #858585;
-   }
-   
-   .social-links{
-       margin-top:2rem;
-       display:flex;
-       justify-content:center;
-       gap:2rem;
-   }
-   
-   . social-links a{
-       color:#ffffff;
-       font-size:1.5rem;
-     
-   }
+header{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+}
+header h1{
+	font-size: 32px;
+	margin-bottom: 10px
+}
 
-   . social-links a:hover{
-       color: #a1a1a1;
-       transform: translateY(-3px);
-   }
-   
-  @media(max-width: 768px){
-  .hero {
-      flex-direction:column;
-      text-align: center;
-      padding-top:8rem;
-       
-  }
+header a{
+	color: white;
+	text-decoration: none;
+	margin: 0 15px;
+	font-size: 16px;
+	font-weight: 500;
+}
 
-  . hero-content{
-      padding-right:0;
-      margin-top:3rem;
-  }
+body{
+	background-image:"https://i.pinimg.com/736x/e1/14/45/e11445cad4b98123d1f53bec668c922a.jpg";
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-attachment: fixed;
+  background-color: dimgray ;
+}
+.Hi h1{
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	margin-left: 26px;
+}
 
-  . profile-img{
-      width:280px;
-      height:280px;
-  }
+.Hi h2{
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	margin-left: 38px;
+}
 
-   . nav-links{
-       display:none;
-   }
-     
-   .logo{
-       font-size:1.5rem;
-       padding-left:2rem;
-   }
+.Hi p{
+	color: white ;
+	font-size: 17px;
+	text-align: center;
+	
+}
+.About h1{
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	
+}
+.About p{
+	color: white;
+	font-size: 17px;
+	text-align: center;
+	
 
-   
-   
+}
+.container{
+	margin:150px auto;
+	width:85%;
+}
+
+.projects h1{
+   color:white;
+   font-size: 25px;
+   text-align:center;
+}	
+
+
+.Hi img{
+	display: block;
+	margin-left:320px;
+	margin-right:325px;
+	width: 50%;
+	border-radius:1%; 
+	width: 300px;
+	height: auto;
+	width: 200px; 
+  height: 200px;
+  border-radius: 50%;
+}
+
+.card-container{
+    justify-content: center;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+	
+}
+
+.card{
+    width: 325px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(white);
+    margin: 20px;
+}
+
+.card-content{
+    margin-left: 5%;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.card-content h3{
+    color: black;
+    font-size: 28px
+    font-family: Arial, san-serif;
+}
+
+.card-content p{
+    font-size: 15px;
+    margin-bottom: 8px;
+    color: black;
+}
+
